@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ImageRepaint"
+version = "0.0.1"
+description = ""
+authors = ["Gleb Mikloshevich <glebmikloshevich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.7.0.72"
+numpy = "^1.24.2"
+pillow = "^9.5.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
